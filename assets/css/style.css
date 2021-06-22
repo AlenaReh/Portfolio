@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background: rgb(7, 7, 7);
+    --grey: rgb(100, 100, 100);
+}
+
+header {
+    background-color: var(--background);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 200 px;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    justify-content: start;
+    margin-left: 25px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none; 
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* HERO */
+
+.hero {
+    display: center;
+    margin: 25px;
+}
+
+.hero img {
+    display: inline-block;
+    max-height: 633px;
+    min-width: 1363px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+/*
+.topImg {
+    position: absolute;
+    z-index: 1;
+    justify-content: center;
+}
+*/
+
+.hero h2 {
+    color: #ff0000;
+    text-shadow: white;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero h4 {
+    color: #ff0000;
+    text-shadow: white;
+    position: absolute;
+    justify-content: center;
+    top: 20%;
+    z-index: 1;
+}
+
+
+/* Main Content */
+.workCardContainer {
+    background-color: var(--grey);
+    margin-right: 20px;
+    padding: 20px;
+    display: inline-block;
+    flex-wrap: wrap;
+    float: right;
+    max-width: 69%;
+    justify-content: space-between;
+}
+
+.workCards img{
+    display: flex;
+    flex: wrap;
+    max-height: 100px;
+    max-width: 200px;
+    margin: 25px;
+    justify-content: space-evenly;
+}
+#main-project {
+    float: center;
+    display: block;
+    margin: 25px;
+    max-width: 70%;
+
+}
+
+/*
+.wordCardContainer img {
+    display: flex;
+    display: inline-block;
+    float: right;
+    border: var(--workCardBorder);
+    min-height: 120px;
+    max-height: 100;
+    margin: 10px;
+    justify-content: space-between;
+
+}
+*/
+
+
+.location {
+    float: center;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+/* Sidebar */
+.sidebar{
+    display: inline-block;
+    float: left;
+    border-right: solid black;
+    margin: 25px;
+    min-width: 325px;
+    min-height: 2000px;
+    background-color: white;
+}
+
+.links {
+    justify-content: start;
+    margin: 25px;
+    align-items: stretch;
+    
+}
+
+.link h3 {
+    font-family: serif;
+    align-items: stretch;
+    font-size: 34px;
+    
+}
+
+
