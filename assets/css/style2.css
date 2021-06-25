@@ -25,6 +25,7 @@ header {
     min-height: 200 px;
     align-items: center;
     padding: 30px 0px;
+    font-style: italic;
 }
 
 .header h1 {
@@ -45,7 +46,6 @@ nav ul {
     float:right;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 nav li {
@@ -175,7 +175,6 @@ section li {
     border-bottom-color: var(--grey);
 }
 
-
 .container {
     width: 75%;
     display:flex;
@@ -216,6 +215,8 @@ ul li a:hover {
     color: var(--white);
 }
 
+
+
 /* TO THE TOP button */
 #myBtn {
     display: none; /* Hidden by default */
@@ -233,7 +234,7 @@ ul li a:hover {
     font-size: 18px; /* Increase font size */
   }
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
 
