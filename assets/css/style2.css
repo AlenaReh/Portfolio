@@ -1,8 +1,8 @@
 :root {
-    --black: black;
+    --black:black;
     --white:white;
-    --grey: grey;
-    --dark: rgb(44, 44, 44);
+    --grey:grey;
+    --dark:rgb(44, 44, 44);
 }
 
 * {
@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Source Code Pro', monospace; ;
+    font-family: 'Source Code Pro', monospace;
     font-size: 16px;
 }
 
@@ -43,24 +43,20 @@ nav ul {
     margin: 20px;
     padding: 15px 15px;
     list-style: none;
-    float:right;
-    display:flex;
+    float: right;
+    display: flex;
     flex-wrap: wrap;
 }
 
 nav li {
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 
 nav a {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    padding: 20px;
     color: var(--white);
-    border-bottom-style: solid;
-    border-bottom-width: 4px;
-    border-bottom-color: var(--grey);
 }
 
 a {
@@ -75,8 +71,11 @@ nav a:hover {
 }
 
 .hero {
+    width: 100%;
+    margin-bottom: 25px;
+    background: url("../images/digital-marketing-meeting.jpg"); no-repeat fixed center bottom;
+    background-size: cover;
     display: flex;
-    justify-content: stretch;
     padding: 20px; 
     background-color: var(--grey);
     margin: 5px;
@@ -84,32 +83,45 @@ nav a:hover {
 }
 
 .mainHero {
-    position:relative;
+    position: relative;
     width: 100%;
     height: auto;
     max-height: 25em;
     border-right-color: var(--grey);
-    border-right-width: 4px;
-   
+    border-right-width: 4px;  
+    
 }
 
 .topImg {
+    display: flex;
+    justify-content: center;
     position: absolute;
     max-width: 270px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    /*
     top: 190px;
     left: 530px;
+    z-index: 1;
+    */
+    
 }
+.hero p {
+    justify-content: center;
+    text-align: center;
+    top: 470px;
+    left: 400px;
+    position: absolute; 
+    color: red;
 
+}
 .hero h2 {
     text-align: center;
     color: red;
     top: 470px;
     left: 400px;
-    position: absolute;
-    
+    position: absolute; 
 }
 
 .hero h4 {
@@ -215,6 +227,39 @@ ul li a:hover {
     color: var(--white);
 }
 
+/* Footer styling */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Source Code Pro', monospace; 
+    background-color: var(--black);
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+
+    .section {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+    body {
+        overflow: auto;
+    }
+    section h2 {
+        font-size: 16px;
+    }
+    nav a {
+        
+        font-size: 16px;
+    }
+    
+    nav a:hover {
+        background-color: var(--grey);
+        color: var(--white);
+    }
+}
+
 
 
 /* TO THE TOP button */
@@ -237,22 +282,3 @@ ul li a:hover {
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
-
-
-/* Footer styling */
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Source Code Pro', monospace; 
-    background-color: var(--black);
-    text-align: center;
-}
-
-/* Media Queries */
-@media (min-width: 1024px) {
-
-    .section {
-        flex: 0 0 33.333%;
-        max-width: 33.333%;
-      }
-}
