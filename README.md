@@ -6,7 +6,7 @@ Deployed Portfolio of my work samples.
 ​
 ## Demo
 
-![alt text](.png)
+![alt text](https://github.com/AlenaReh/Portfolio/blob/main/assets/images/hero.jpg)
 
 ## Contributors
 
