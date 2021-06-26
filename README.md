@@ -6,9 +6,9 @@ Deployed Portfolio of my work samples.
 ​
 ## Demo
 
-![DEMO-STILL](assets/images/Demo.png)
-![DEMO-GIF](assets/images/Alena Rehberger's Portfolio.gif)
+![demo](assets/images/Demo.png)
 
+![portfolio demo](assets/images/Alena Rehberger's Portfolio.gif)
 
 ## Contributors
 
@@ -16,4 +16,4 @@ Deployed Portfolio of my work samples.
 ​
 ## Credits
 
-Thanks to w3schools <w3schools.com>, icons8 <icons8.com/icon/89355/monitor>, and Trilogy Education Services for providing all of the necessery tools for building this portfolio.
+Thanks to w3schools <https://w3schools.com>, icons8 <https://icons8.com/icon/89355/monitor>, and Trilogy Education Services for providing all of the necessery tools for building this portfolio.
