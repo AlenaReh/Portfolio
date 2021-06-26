@@ -15,6 +15,7 @@
 body {
     font-family: 'Source Code Pro', monospace;
     font-size: 16px;
+
 }
 
 a {
@@ -86,48 +87,46 @@ nav a:hover {
     border-right: 12px;
 }
 
-.mainHero {
-    position: relative;
-    max-height: 25em;
-}
+.backgroundImg {
+    background-image: url("../images/hero.jpg");
+    width: 100%;
 
-.topImg {
-    position: absolute;
-    max-width: 270px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    top: 210px;
-    left: 565px;
+}
+.topImg {   
+    margin: 0 auto;
+    width: 18%;
+    display: block;
 }
 
 .hero p {
-    justify-content: center;
-    text-align: center;
-    top: 490px;
-    left: 480px;
-    position: absolute; 
+    margin: auto;
+    display: block;
     color: red;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
+    text-align: center;
+    
 }
 
 /* Side bar styling */
 
-section {
+main section {
     padding: 15px 15px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    border-left: var(--grey) !important;
+    
+
 }
 
 section h2 {
     display: inline-block;
     text-align: center;
     width: 25%;
+    height: auto;
     padding: 15px 15px;
     border-right-style: solid;
-    border-right-color: var(--grey);
     border-right-width: 4px;
 }
 
@@ -147,7 +146,7 @@ section div {
 section ul {
     list-style-type: none;
     width: 65%;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
@@ -169,10 +168,11 @@ main {
 
 .container {
     width: 75%;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: auto;
 }
 
 .project-img {
@@ -215,6 +215,7 @@ ul li a:hover {
     text-align: center;
 }
 
+/*
 /* Media Queries */
 @media (max-width: 1024px) {
     .topImg {
@@ -229,7 +230,7 @@ ul li a:hover {
         width: 100%;
         font-size: smaller;
         top: 535px;
-        left: 345px;
+        left: 20px;
         z-index: 1;
     }
 }
@@ -274,11 +275,11 @@ ul li a:hover {
     .hero p{
         width: 100%;
         font-size: smaller;
-        top: 103%;
+        top: 130%;
         left: 0;
         z-index: 1;
     }
-}
+} 
 
 /* TO THE TOP button */
 #myBtn {

@@ -6,9 +6,9 @@ Deployed Portfolio of my work samples.
 ​
 ## Demo
 
-![demo](assets/images/Demo.png)
+![demo_still](assets/images/Demo.png)
 
-![portfolio demo](assets/images/Alena Rehberger's Portfolio.gif)
+![demo_gif](assets/images/portfolio.gif)
 
 ## Contributors
 
