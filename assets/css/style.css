@@ -247,7 +247,7 @@ ul li a:hover {
     }
 
     section p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .topImg {
@@ -264,6 +264,9 @@ ul li a:hover {
         left: 0;
         z-index: 1;
     }
+
+    .footer {
+        font-size: 12px;
 } 
 
 /* TO THE TOP button */
