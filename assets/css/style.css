@@ -286,7 +286,7 @@ ul li a:hover {
     }
 
     section h2 {
-        font-size: 10px;
+        font-size: 8px;
         overflow: auto;
     }
 
@@ -296,6 +296,11 @@ ul li a:hover {
     }
 
     div p {
+        font-size: 6px;
+        overflow: auto;
+    }
+
+    a {
         font-size: 6px;
         overflow: auto;
     }
