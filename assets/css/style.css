@@ -108,6 +108,7 @@ nav a:hover {
 }
 
 /* Side bar styling */
+
 main section {
     padding: 15px 15px;
     display: flex;
@@ -211,9 +212,11 @@ ul li a:hover {
     text-align: center;
 }
 
+/*
 /* Media Queries */
 @media (max-width: 1024px) {
     .topImg {
+       
         width: 50%;
         top: 250px;
         left: 400px;
@@ -234,6 +237,11 @@ ul li a:hover {
         font-size: 16px;
     }
 
+    .section {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+
     body {
         overflow: auto;
     }
@@ -245,9 +253,14 @@ ul li a:hover {
     nav a {
         font-size: 16px;
     }
+    
+    nav a:hover {
+        background-color: var(--grey);
+        color: var(--white);
+    }
 
     section p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .topImg {
@@ -256,17 +269,40 @@ ul li a:hover {
         left: 35%;
         z-index: 1;
     }
-
-    .hero p {
+    .hero p{
         width: 100%;
         font-size: smaller;
         top: 130%;
         left: 0;
         z-index: 1;
     }
+} 
+
+@media (max-width: 320px) {
+
+    section p {
+        font-size: 10px;
+        overflow: auto;
+    }
+
+    section h2 {
+        font-size: 10px;
+        overflow: auto;
+    }
+
+    section ul {
+        font-size: 8px;
+        overflow: auto;
+    }
+
+    div p {
+        font-size: 6px;
+        overflow: auto;
+    }
 
     .footer {
-        font-size: 12px;
+        font-size: 8px;
+    }
 } 
 
 /* TO THE TOP button */
