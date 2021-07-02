@@ -10,6 +10,10 @@ Deployed Portfolio of my work samples.
 
 ![demo_gif](assets/images/portfolio.gif)
 
+* https://alenareh.github.io/Portfolio/
+* https://github.com/AlenaReh/Portfolio
+
+
 ## Contributors
 
 - Alena Rehberger <https://github.com/AlenaReh>
