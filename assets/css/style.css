@@ -21,7 +21,7 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 /* Header styling */
@@ -216,7 +216,6 @@ ul li a:hover {
 /* Media Queries */
 @media (max-width: 1024px) {
     .topImg {
-       
         width: 50%;
         top: 250px;
         left: 400px;
@@ -229,6 +228,9 @@ ul li a:hover {
         top: 535px;
         left: 20px;
         z-index: 1;
+    }
+    a {
+        font-size: 10px;
     }
 }
 
@@ -247,11 +249,11 @@ ul li a:hover {
     }
 
     section h2 {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     nav a {
-        font-size: 16px;
+        font-size: 6px;
     }
     
     nav a:hover {
@@ -260,7 +262,11 @@ ul li a:hover {
     }
 
     section p {
-        font-size: 12px;
+        font-size: 6px;
+    }
+    
+    a {
+        font-size: 10px;
     }
 
     .topImg {
@@ -276,22 +282,25 @@ ul li a:hover {
         left: 0;
         z-index: 1;
     }
+    a {
+        font-size: 10px;
+    }
 } 
 
 @media (max-width: 320px) {
 
     section p {
-        font-size: 10px;
+        font-size: 8px;
         overflow: auto;
     }
 
     section h2 {
-        font-size: 8px;
+        font-size: 12px;
         overflow: auto;
     }
 
     section ul {
-        font-size: 8px;
+        font-size: 6px;
         overflow: auto;
     }
 
