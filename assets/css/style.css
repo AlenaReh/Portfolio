@@ -203,6 +203,10 @@ ul li a:hover {
     color: var(--white);
 }
 
+.github {
+    margin: 10px;
+}
+
 /* Footer styling */
 .footer {
     padding: 30px;
@@ -230,6 +234,10 @@ ul li a:hover {
         z-index: 1;
     }
     a {
+        font-size: 10px;
+    }
+
+    a.github {
         font-size: 10px;
     }
 }
@@ -268,6 +276,9 @@ ul li a:hover {
     a {
         font-size: 10px;
     }
+    a.github {
+        font-size: 8px;
+    }
 
     .topImg {
         width: 50%;
@@ -281,9 +292,6 @@ ul li a:hover {
         top: 130%;
         left: 0;
         z-index: 1;
-    }
-    a {
-        font-size: 10px;
     }
 } 
 
@@ -312,6 +320,9 @@ ul li a:hover {
     a {
         font-size: 6px;
         overflow: auto;
+    }
+    a.github {
+        font-size: 6px;
     }
 
     .footer {
